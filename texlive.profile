@@ -1,6 +1,3 @@
-# texlive.profile written on Mon Sep 17 14:26:06 2018 UTC
-# It will NOT be updated and reflects only the
-# installation profile at installation time.
 selected_scheme scheme-custom
 TEXDIR $HOME/texlive
 TEXMFCONFIG $TEXMFSYSCONFIG
@@ -11,6 +8,7 @@ TEXMFSYSVAR $HOME/texlive/texmf-var
 TEXMFVAR $TEXMFSYSVAR
 binary_x86_64-linux 1
 collection-basic 1
+collection-binextra 1
 collection-fontutils 1
 collection-formatsextra 1
 collection-latex 1
